@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smooth Stitch - Boutique Artisanale de Crochet</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/98f88f862a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Jost:wght@400;500&display=swap" rel="stylesheet"/>
+</header>
+<body>
+   <nav class="navbar">
+<a href="#accueil" class="navbar-brand">
+    <img src="Images/smooth stitch.png" alt="Logo Smooth Stitch" class="navbar-logo"/>
+    <span class="navbar-nom">Smooth Stitch</span>
+  </a>
+  <ul class="navbar-menu">
+    <li><a href="#apropos">À Propos</a></li>
+    <li><a href="#produits">produits</a></li>
+    <li><a href="#mission">Mission</a></li>
+    <li><a href="#equipe">Équipe</a></li>
+    <li><a href="#temoignages">Avis</a></li>
+    <li><a href="#contact" class="navbar-btn">Contact</a></li>
+  </ul>
+
+</nav>
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <h1>Bienvenue chez Smooth Stitch</h1>
+            <p>Créations artisanales en crochet haut de gamme</p>
+            <a href="#produits" class="btn btn-primary">Découvrir la Collection</a>
+        </div>
+            <div class="placeholder-large">
+                 <img src="Images/clay-banks-N3SsG7xR-Dg-unsplash.jpg" alt="Créations artisanales en crochet haut de gamme" class="hero-image"/>
+        </div>
+    </section>
+
+    <section class="presentation">
+        <div class="container">
+            <div class="presentation-grid">
+                <div class="pres-content">
+                    <h2>À Propos de Smooth Stitch</h2>
+                    <p>Basée au cœur de Dakar, <strong>Smooth Stitch</strong> est une boutique en ligne spécialisée dans l'art du crochet haut de gamme. Nous créons des produits artisanaux uniques qui célèbrent le Made In Senegal et le retour au fait main.</p>
+                    <p>Notre mission est de proposer des créations de qualité accessibles à tous : des jeunes mamans aux amoureux de décoration d'intérieur, en passant par les tendanceurs urbains.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h3>500+</h3>
+                            <p>Clients satisfaits</p>
+                        </div>
+                        <div class="stat">
+                            <h3>4</h3>
+                            <p>Catégories</p>
+                        </div>
+                        <div class="stat">
+                            <h3>100%</h3>
+                            <p>Fait main</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pres-image">
+                    <div class="placeholder-medium">
+                        <img src="Images/image.png" alt="Logo Smooth Stitch" class="presentation-image"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="categories-filter">
+        <div class="container">
+            <h2>Nos Collections</h2>
+            <div class="filter-buttons">
+                <a href="#produits" class="filter-btn active" data-filter="all">
+                    🛍️ Tout
+                </a>
+                <a href="#baby" class="filter-btn" data-filter="baby">
+                    👶 Baby
+                </a>
+                <a href="#home" class="filter-btn" data-filter="home">
+                    🏠 Maison
+                </a>
+                <a href="#beach" class="filter-btn" data-filter="beach">
+                    🏖️ Plage
+                </a>
+                <a href="#accessories" class="filter-btn" data-filter="accessories">
+                    👜 Accessoires
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="produits" class="products">
+        <div class="container">
+            <h2>Nos Produits</h2>
+            
+            <div class="category-section" id="baby" data-category="baby">
+                <h3 class="category-title">The Baby Hub</h3>
+                <p class="category-desc">Douceur et éveil, idéal pour les cadeaux de naissance</p>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <div class="placeholder">
+                                <img src="Images/amigrumis.webp" alt="Peluches Amigurumis" class="placeholder"/>
+
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>🧸 Peluches Amigurumis</h4>
+
+                            <p class="product-desc">Doudous faits main en coton hypoallergénique</p>
+                        
+                            <div class="product-footer">
+                                <span class="price">15.000 FCFA</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <div class="placeholder">
+                                <img src="Images/ens nais.jpg" alt="Ensemble Naissance" class="placeholder"/>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>👶 Ensemble Naissance</h4>
+                            <p class="product-desc">Duo bonnet et chaussons assortis, plusieurs coloris</p>
+                            <div class="product-footer">
+                                <span class="price">12.500 FCFA</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <div class="placeholder">
+                                <img src="Images/hochet.png" alt="Hochet de Dentition" class="placeholder"/>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>🦴 Hochet de Dentition</h4>
+                            <p class="product-desc">Anneau en bois naturel avec tête d'animal</p>
+                            <div class="product-footer">
+                                <span class="price">7.500 FCFA</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="category-section" id="home" data-category="home">
+                <h3 class="category-title">Home</h3>
+                <p class="category-desc">Pièces de caractère pour réchauffer les intérieurs urbains</p>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <div class="placeholder">
+                                <img src="Images/abat-jour-crochet.webp" alt="Abat-Jour Crochet" class="placeholder"/>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>💡 Abat-Jour Crochet</h4>
+                            <p class="product-desc">Structure ajourée créant des jeux d'ombres</p>
+                            <div class="product-footer">
+                                <span class="price">25.000 FCFA</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <div class="placeholder">
+                                <img src="Images/pan.webp" alt="Panier de Rangement" class="panier"/>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>🧺 Panier de Rangement</h4>
+                            <p class="product-desc">Corbeille rigide en corde de coton</p>
+                            <div class="product-footer">
+                                <span class="price">18.500 FCFA</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="category-section" id="beach" data-category="beach">
+                <h3 class="category-title">Beachwear</h3>
+                <p class="category-desc">La ligne trendy pour briller sur la côte dakaroise</p>
+            </div>
+<div class="products-grid">
+
+    <div class="product-card">
+        <div class="product-image">
+            <div class="placeholder">
+                <img src="Images/hat.jpg" alt="Dakar Bucket Hat" class="product-img-file">
+            </div>
+        </div>
+        <div class="product-info">
+            <h4>🤠 Dakar Bucket Hat</h4>
+            <p class="product-desc">Bob en crochet multicolore, parfait pour l'été</p>
+            <div class="product-footer">
+                <span class="price">10.000 FCFA</span>
+            </div>
+        </div>
+    </div> <div class="product-card">
+        <div class="product-image">
+            <div class="placeholder">
+                <img src="Images/bikini pareo.webp" alt="Duo Bikini & Paréo" class="product-img-file">
+            </div>
+        </div>
+        <div class="product-info">
+            <h4>👙 Duo Bikini & Paréo</h4>
+            <p class="product-desc">Ensemble de plage sur-mesure...</p>
+            <div class="product-footer">
+                <span class="price">30.000 FCFA</span>
+            </div>
+        </div>
+    </div> </div> ```
+            <div class="category-section" id="accessories" data-category="accessories">
+                <h3 class="category-title">Accessories</h3>
+                <p class="category-desc">Le détail artisanal qui sublime une tenue quotidienne</p>
+  <div class="products-grid">
+
+    <div class="product-card">
+        <div class="product-image">
+            <div class="placeholder">
+                <img src="Images/filet.jpg" alt="Sac Filet" class="product-img-file">
+            </div>
+        </div>
+        <div class="product-info">
+            <h4>👜 Sac Filet</h4>
+            <p class="product-desc">Sac extensible ultra-résistant et chic</p>
+            <div class="product-footer">
+                <span class="price">12.000 FCFA</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-card">
+        <div class="product-image">
+            <div class="placeholder">
+                <img src="images/marque page.jpg" alt="Marque-Page Artisanal" class="product-img-file">
+            </div>
+        </div>
+        <div class="product-info">
+            <h4>📖 Marque-Page Artisanal</h4>
+            <p class="product-desc">Bande fine crochetée avec fleur ou gland</p>
+            <div class="product-footer">
+                <span class="price">2.500 FCFA</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+    </section>
+
+    <section id="mission" class="mission-vision">
+        <div class="container">
+            <div class="mission-grid">
+                <div class="mission-card">
+                    <div class="icon-large">
+                        <i class="fas fa-target"></i>
+                    </div>
+                    <h3>Notre Mission</h3>
+                    <p>Proposer des créations artisanales de qualité exceptionnelle qui valorisent le savoir-faire sénégalais et rendent accessible le luxe du fait main à une clientèle urbaine connectée.</p>
+                </div>
+                <div class="mission-card">
+                    <div class="icon-large">
+                        <i class="fas fa-binoculars"></i>
+                    </div>
+                    <h3>Notre Vision</h3>
+                    <p>Devenir la référence incontournable du crochet haut de gamme en Afrique de l'Ouest en créant un océan bleu où tradition et modernité se rencontrent.</p>
+                </div>
+                <div class="mission-card">
+                    <div class="icon-large">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Nos Valeurs</h3>
+                    <p>Authenticité, Durabilité, Inclusivité et Innovation. Chaque produit Smooth Stitch raconte une histoire et célèbre l'artisanat africain.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="temoignages" class="testimonials">
+        <div class="container">
+            <h2>Avis de Nos Clients</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Les produits sont d'une qualité exceptionnelle. J'ai offert les peluches Amigurumis à ma nièce et elle ne les lâche plus. Je recommande vivement!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">AF</div>
+                        <div>
+                            <p class="author-name">Aïssatou Faye</p>
+                            <p class="author-role">Mère de famille, Dakar</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Service client impeccable et livraison rapide! Mon salon a une touche bohème-chic grâce à l'abat-jour. C'est du vrai fait main, on voit la différence."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MD</div>
+                        <div>
+                            <p class="author-name">Mariam Diallo</p>
+                            <p class="author-role">Décoratrice d'intérieur, Mermoz</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"L'accessoire incontournable cet été! Le Dakar Bucket Hat est confortable, stylé et parfait pour les photos Instagram. Les couleurs sont vibrantes!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">NK</div>
+                        <div>
+                            <p class="author-name">Ndeye Konté</p>
+                            <p class="author-role">Influenceuse, Almadies</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="equipe" class="team">
+        <div class="container">
+            <h2>Notre Équipe</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-image">
+                        <div class="placeholder-avatar">AS</div>
+                    </div>
+                    <h4>Aminata Sow</h4>
+                    <p class="member-role">Directrice & Artisane</p>
+                    <p class="member-desc">Fondatrice de Smooth Stitch, spécialiste du crochet avec 8 ans d'expérience</p>
+                    <div class="social-links">
+                        <button class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></button>
+                        <button class="social-icon" aria-label="Facebook"><i class="fab fa-facebook"></i></button>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <div class="member-image">
+                        <div class="placeholder-avatar">FK</div>
+                    </div>
+                    <h4>Fatou Kébé</h4>
+                    <p class="member-role">Gérante Commerciale</p>
+                    <p class="member-desc">Responsable des ventes et relation clients</p>
+                    <div class="social-links">
+                        <button class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></button>
+                        <button class="social-icon" aria-label="Facebook"><i class="fab fa-facebook"></i></butto>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <div class="member-image">
+                        <div class="placeholder-avatar">IS</div>
+                    </div>
+                    <h4>Issa Sarr</h4>
+                    <p class="member-role">Artisan Expert</p>
+                    <p class="member-desc">Maître crocheteur et concepteur de nouveaux modèles</p>
+                    <div class="social-links">
+                        <button class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></button>
+                        <button class="social-icon" aria-label="Facebook"><i class="fab fa-facebook"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="message" class="message">
+        <p class="contact-intro">Vous avez une question ou souhaitez passer une commande personnalisée ? Contactez-nous !</p>
+            <div class="contact-grid">
+
+                <form class="contact-form" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="nom" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Votre email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="sujet" placeholder="Sujet">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Votre message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+
+  <div class="footer-top">
+
+    <div class="footer-brand">
+     <a href="#accueil" class="footer-logo-link">
+        <img src="images/smooth stitch.png" alt="Logo Smooth Stitch" class="footer-logo-img"/>
+        <span class="footer-logo-nom">Smooth Stitch</span>
+      </a>
+      <p class="footer-desc">
+        Maison artisanale de crochet haut de gamme fondée à Dakar.
+        Chaque pièce est une œuvre unique, faite avec amour et expertise.
+               
+     <div class="footer-social">
+        <button class="footer-social-lien" aria-label="Instagram">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="20" rx="5"/>
+            <circle cx="12" cy="12" r="5"/>
+            <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/>
+          </svg>
+        </button>
+        <button class="footer-social-lien" aria-label="Facebook">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+          </svg>
+        </button>
+        <button class="footer-social-lien" aria-label="Twitter">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53A4.48 4.48 0 0 0 22.43.36a9 9 0 0 1-2.88 1.1A4.52 4.52 0 0 0 16.11 0c-2.5 0-4.52 2-4.52 4.5 0 .35.04.7.11 1.03C7.69 5.35 4.07 3.58 1.64.9a4.49 4.49 0 0 0-.61 2.27c0 1.56.8 2.94 2 3.75a4.5 4.5 0 0 1-2.05-.56v.06c0 2.18 1.55 4 3.6 4.41a4.5 4.5 0 0 1-2.04.08 4.53 4.53 0 0 0 4.22 3.13A9.06 9.06 0 0 1 0 19.54 12.8 12.8 0 0 0 6.92 21.5c8.3 0 12.84-6.88 12.84-12.85 0-.2 0-.39-.01-.58A9.17 9.17 0 0 0 22 5.92a9 9 0 0 1-2.59.71A4.52 4.52 0 0 0 21.46 4a9.03 9.03 0 0 1-2.86 1.1A4.52 4.52 0 0 0 15.11 3z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4 class="footer-col-titre">Liens Rapides</h4>
+      <ul class="footer-liste">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#apropos">À Propos</a></li>
+        <li><a href="#produits">Produits</a></li>
+        <li><a href="#mission">Mission</a></li>
+        <li><a href="#equipe">Équipe</a></li>
+        <li><a href="#temoignages">Avis</a></li>
+      </ul>
+    </div>
+    <section id="contact" class="footer-col">
+      <h4 class="footer-col-titre">Contactez-Nous</h4>
+      <ul class="footer-contact-liste">
+    <li class="footer-contact-item">
+  <br><span class="footer-contact-label">Email</span>
+  <span class="footer-contact-valeur">contact@smoothstitch.sn</span>
+</li>
+<li class="footer-contact-item">
+  <span class="footer-contact-label">Téléphone</span>
+  <span class="footer-contact-valeur">+221 77 000 00 00</span>
+</li>
+<li class="footer-contact-item">
+  <span class="footer-contact-label">Adresse</span>
+  <span class="footer-contact-valeur">Plateau, Dakar — Sénégal</span>
+</li>
+<li class="footer-contact-item">
+  <span class="footer-contact-label">Horaires</span>
+  <span class="footer-contact-valeur">Lun – Sam : 9h à 18h</span>
+</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="footer-separateur"></div>
+
+  <div class="footer-bottom">
+    <span class="footer-copy">© 2026 Smooth Stitch. Tous droits réservés.</span>
+    <span class="footer-heart">Fait avec <span class="coeur">♥</span> à Dakar, Sénégal</span>
+  </div>
+
+</footer>
+</body>
+</html>
