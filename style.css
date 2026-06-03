@@ -39,7 +39,45 @@ body {
     padding: 0 20px;
 }
 
+.menu-checkbox {
+  display: none;
+}
 
+/* 2. Par défaut sur mobile, on cache le menu */
+@media (max-width: 768px) {
+  .navbar-menu {
+    display: none; /* Ou transform: translateY(-100%) pour une animation */
+    flex-direction: column;
+    position: absolute;
+    top: 60px; /* À ajuster selon la hauteur de votre navbar */
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+  }
+
+  /* 3. On affiche le bouton burger uniquement sur mobile */
+  .menu-toggle {
+    display: block;
+    cursor: pointer;
+    font-size: 24px;
+  }
+
+  /* 4. LA MAGIE DU TOGGLE : Quand la checkbox est cochée, on affiche le menu qui la suit */
+  .menu-checkbox:checked ~ .navbar-menu {
+    display: flex;
+  }
+}
+
+/* 5. Sur ordinateur, on cache le bouton burger et on montre le menu normalement */
+@media (min-width: 769px) {
+  .menu-toggle {
+    display: none;
+  }
+  .navbar-menu {
+    display: flex;
+    flex-direction: row;
+  }
+}}
 
 .navbar {
   position: fixed;

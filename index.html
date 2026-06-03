@@ -7,23 +7,32 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/98f88f862a.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Jost:wght@400;500&display=swap" rel="stylesheet"/>
-</header>
+</head>
 <body>
    <nav class="navbar">
-<a href="#accueil" class="navbar-brand">
-    <img src="Images/smooth stitch.png" alt="Logo Smooth Stitch" class="navbar-logo"/>
-    <span class="navbar-nom">Smooth Stitch</span>
-  </a>
-  <ul class="navbar-menu">
-    <li><a href="#apropos">À Propos</a></li>
-    <li><a href="#produits">produits</a></li>
-    <li><a href="#mission">Mission</a></li>
-    <li><a href="#equipe">Équipe</a></li>
-    <li><a href="#temoignages">Avis</a></li>
-    <li><a href="#contact" class="navbar-btn">Contact</a></li>
-  </ul>
+    <a href="#accueil" class="navbar-brand">
+      <img src="Images/smooth stitch.png" alt="Logo Smooth Stitch" class="navbar-logo">
+      <span class="navbar-nom">Smooth Stitch</span>
+    </a>
 
-</nav>
+    <!-- Checkbox masquée qui gère l'état -->
+    <input type="checkbox" id="menuToggle" class="menu-checkbox" />
+    
+    <!-- Label qui sert de bouton visible (ici avec l'icône burger Font Awesome) -->
+    <label for="menuToggle" class="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </label>
+
+    <!-- Le menu déroulant -->
+    <ul class="navbar-menu">
+      <li><a href="#apropos">À Propos</a></li>
+      <li><a href="#produits">produits</a></li>
+      <li><a href="#mission">Mission</a></li>
+      <li><a href="#equipe">Équipe</a></li>
+      <li><a href="#temoignages">Avis</a></li>
+      <li class="navbar-btn"><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
     <section id="accueil" class="hero">
         <div class="hero-content">
             <h1>Bienvenue chez Smooth Stitch</h1>
